@@ -1,0 +1,64 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(238, 207, 166);
+}
+
+.addform{
+
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+
+    border: 5px solid rgb(77, 40, 28);
+    border-radius: 50px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+
+
+.desc{
+    width: 500px;
+    height: 130px;
+
+    
+
+}
+
+.res{
+    width: 500px;
+    height: 90px;
+}
+
+.lh{
+    width: 500px;
+    height: 50px;
+}
+
+
+.name{
+    width: 200px;
+    height: 30px;
+}
+
+input [type="submit"]{
+
+    background-color: brown;
+    color: aliceblue;
+
+    width: 100px;
+    height: 20px;
+
+    text-align: center;
+
+}
