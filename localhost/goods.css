@@ -1,0 +1,50 @@
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.popular-items{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.often-buy-item{
+    width: 250px;
+}
+
+.often-buy-item img {
+    margin-bottom: 20px;
+
+    background-color: rgb(250, 250, 250);
+
+    max-width: 200px;
+    height: 200px;
+}
+
+.addtocart-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    background-color: rgb(250, 250, 250);
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+
+    transition: .2s linear;
+}
+
+.addtocart-btn:hover {
+    background-color: #FF9999;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
